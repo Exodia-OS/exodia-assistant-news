@@ -5,130 +5,148 @@
   﫥  Copyright : Mahmoud Mohamed
 -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exodia OS News</title>
-    <style>
-        /* Define the Predator font */
-        @font-face {
-            font-family: 'Predator';
-            src: url('/usr/share/exodia/exodia-assistant/Fonts/Squares-Bold.otf') format('opentype');
-            font-weight: bold;
-            font-style: normal;
-        }
+<style>
+    /* Define the Predator font */
+    @font-face {
+        font-family: 'Predator';
+        src: url('/usr/share/exodia/exodia-assistant/Fonts/Squares-Bold.otf') format('opentype');
+        font-weight: bold;
+        font-style: normal;
+    }
 
-        /* Apply the Predator font to all text */
-        body {
-            /*font-family: 'Predator', Arial, sans-serif;*/
-            background-color: #1e1e1e;
-            color: #00B0C8;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
+    /* Apply the Predator font to all text */
+    body {
+        /*font-family: 'Predator', Arial, sans-serif;*/
+        background-color: #1e1e1e;
+        color: #00B0C8;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+    }
 
-        /* Apply emoji fonts to emoji icons */
-        .emoji {
-            font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
-        }
+    /* Apply emoji fonts to emoji icons */
+    .emoji {
+        font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
 
-        h1 {
-            color: #00C8B0;
-            font-size: 32px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+    h1 {
+        color: #00C8B0;
+        font-size: 32px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-        p {
-            font-size: 18px;
-            text-align: center;
-        }
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
 
-        .announcement {
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
+    .announcement {
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
 
-        .announcement h2 {
-            color: #00C8B0;
-            font-size: 24px;
-            margin-bottom: 15px;
-            text-align: center;
-        }
+    .announcement h2 {
+        color: #00C8B0;
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 
-        .announcement p {
-            font-size: 16px;
-            color: #FFFFFF;
-            text-align: left;
-        }
+    .announcement p {
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: left;
+    }
 
-        .announcement ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
+    .announcement ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
 
-        .announcement li {
-            padding: 10px;
-            border-bottom: 1px solid #00C8B0;
-            transition: background-color 0.3s ease;
-        }
+    .announcement li {
+        padding: 10px;
+        border-bottom: 1px solid #00C8B0;
+        transition: background-color 0.3s ease;
+    }
 
-        .announcement li:hover {
-            background-color: #3a3a3a;
-        }
+    .announcement li:hover {
+        background-color: #3a3a3a;
+    }
 
-        .announcement code {
-            font-family: 'Predator';
-            background-color: #222222;
-            color: #00B0C8;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        .internetConnection {
-            color: #FF0000;
-            font-size: 24px;
-            margin-bottom: 15px;
-            text-align: center;
-        }
+    .announcement code {
+        background-color: #222222;
+        color: #00B0C8;
+        padding: 2px 4px;
+        border-radius: 4px;
+    }
+    .internetConnection {
+        color: #FF0000;
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 
-        .internetConnection h2{
-            color: #FF0000;
-        }
+    .internetConnection h2{
+        color: #FF0000;
+    }
 
-    </style>
-</head>
-<body>
-<div class="container">
-    <h1>For Acer Predator Laptops ONLY!</h1>
-    <p>You have to update the kernal module</p>
+</style>
 
-    <!-- Developer Contribution Announcement -->
-    <div class="announcement">
+<div style="color: #00B0C8; line-height: 1.6; font-size: 18px; max-width: 800px; margin: auto; padding: 0 20px;">
 
-        <p>
-            open up the terminal and run these commands:
-        </p>
+<h1 style="color: #00C8B0; font-size: 32px; margin-bottom: 20px; text-align: center;">Welcome Exodia OS Community</h1>
 
-        <ul>
-            <br>
-            <code>remove Predator-Sense-CLI Predator-Sense-GUI</code>
-            <br>
-            <code>install acer-predator-turbo-rgb-git</code>
-        </ul>
+<p style="font-size: 20px; text-align: center;">
+    We're Introducing <strong style="color: #00C8B0;">exodia-assistant-4.0-0</strong> The New App Of Exodia OS Assistant.
+</p>
 
-    </div>
+<h2 style="color: #00C8B0; font-size: 28px; margin-top: 30px; text-align: center;">Introducing The New Settings Window </h2>
+
+<p style="font-size: 20px; text-align: center;">
+    Now You Can Change Profile Picture and SDDM Profile Picture From The Setting.
+</p>
+
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/tmp/exodia-assistant/news/1.png" alt="Exodia OS Desktop" width="744" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/2.png" alt="Exodia OS Desktop" width="744" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/3.png" alt="Exodia OS Desktop" width="744" style="max-width: 100%; height: auto;">
 </div>
-</body>
-</html>
+
+
+<h2 style="color: #00C8B0; font-size: 28px; margin-top: 30px; text-align: center;">Introducing The New Tweaks Tab</h2>
+
+<p style="font-size: 20px; text-align: center;">
+    You Can Modify Your Config Using The Tweaks Tab (In Dev Stage).
+</p>
+
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/tmp/exodia-assistant/news/4.png" alt="Exodia OS Desktop" width="744" style="max-width: 100%; height: auto;">
+</div>
+
+<h2 style="color: #00C8B0; font-size: 28px; margin-top: 30px; text-align: center;">Introducing The New Role Tab</h2>
+
+<p style="font-size: 20px; text-align: center;">
+    You Can Select/Manage/Create a Role Using The Role Tab, To access Roadmap, Materials, and environment setup For Your Work.
+</p>
+
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/tmp/exodia-assistant/news/5.png"  alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/6.png"  alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/7.png"  alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/8.png"  alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/9.png"  alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/10.png" alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+    <img src="/tmp/exodia-assistant/news/11.png" alt="Exodia OS Desktop" width="1000" style="max-width: 100%; height: auto;">
+</div>
+
+</div>
