@@ -104,27 +104,42 @@
 
 <div style="color: #00B0C8; line-height: 1.6; font-size: 18px; max-width: 800px; margin: auto; padding: 0 20px;">
 
-<h1 style="color: #00C8B0; font-size: 32px; margin-bottom: 20px; text-align: center;"><span class="emoji">🎉</span>Eid al-Adha Mubarak to the Exodia OS Community!<span class="emoji">🌙🐑</span></h1>
+    <h1 style="color: #00C8B0; font-size: 32px; margin-bottom: 20px; text-align: center;"><span class="emoji">📢</span> Announcement — Big Updates Incoming!</h1>
 
-<p style="font-size: 20px; text-align: center;">
-    On this blessed occasion of <strong style="color: #00C8B0;">Eid al-Adha al-Mubarak</strong> we extend our warmest congratulations and heartfelt wishes to the entire. <strong style="color: #00C8B0;">Exodia OS community</strong>. May this Eid bring peace, prosperity, and joy to you and your loved ones.
+    <p> It’s been a while — I’ve officially completed my military service, and I’m excited to announce that some amazing updates are coming your way soon! </p>
 
-</p>
+    <br>
 
-<p style="font-size: 20px; text-align: center;">
-    As we celebrate the spirit of sacrifice, unity, and gratitude, let's also celebrate the incredible journey of Exodia OS — built with passion, purpose, and the power of open-source collaboration. Together, we continue to grow stronger, innovate boldly, and stand proudly as a community driven by knowledge and freedom.
-</p>
+    <h1> <span class="emoji">🔧</span> Important Update: PipeWire & Hyprland Support </h1>
 
-<div style="text-align: center; margin: 20px 0;">
-    <img src="/tmp/exodia-assistant/news/Eid_al-Adha.png" alt="Exodia OS Desktop" width="744" style="max-width: 100%; height: auto;">
-</div>
+    <p style="font-size: 20px; text-align: center;">
+        As part of our upcoming support for <strong style="color: #00C8B0;">Hyprland</strong>, we’ve made a full switch to <strong style="color: #00C8B0;">PipeWire</strong> for audio management.
+    </p>
 
-    <h2 style="font-size: 20px; text-align: center;">
-    <strong style="color: #00C8B0;">The Exodia OS Team <span class="emoji">🇪🇬🐺</span>
+    <br>
 
-</strong>
+    <h1 style="font-size: 20px; text-align: left;"> Why the change?</h1>
 
-</h2>
+    <p> PulseAudio has known compatibility issues with Hyprland, while PipeWire offers seamless out-of-the-box support </p>
 
+    <br>
+
+    <h1 style="text-align: left;"> <span class="emoji">🚀</span> How to Prepare for the Update </h1>
+
+    <p style="text-align: left;"> Remove PulseAudio </p>
+
+    <p style="text-align: center;"> <strong style="color: #00C8B0;">sudo pacman -Rdd pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer-ladspa pulseaudio-qt pulsemixer</strong> </p>
+
+    <p style="text-align: left;"> Reboot Your System </p>
+
+    <p style="text-align: left;"> Install PipeWire and Related Packages </p>
+
+    <p style="text-align: center;"> <strong style="color: #00C8B0;">sudo pacman -S pipewire wireplumber pipewire-pulse pipewire-alsa pipewire-jack pulsemixer pavucontrol gst-plugin-pipewire</strong> </p>
+
+    <p style="text-align: left;"> Reboot Again </p>
+
+    <p style="text-align: left;"> Update Your System </p>
+
+    <p style="text-align: center;"> <strong style="color: #00C8B0;">update</strong> </p>
 
 </div>
